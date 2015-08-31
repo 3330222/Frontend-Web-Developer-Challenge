@@ -1,0 +1,44 @@
+.recording-Container{
+  padding-top: 90px;
+  background-color: #333;
+}
+
+.recording-Header{
+  top: 45px;
+  color: #FFF;
+  background-color: #76A9DD;
+  text-align: center;
+  height: 45px;
+  font-size: 17px;
+}
+
+.recording-BackBtn img{
+  height: 32px;
+  width: 32px;
+}
+
+.recording-Content{
+  padding: 10px;
+  background-color: #FFF;
+  text-align: center;
+}
+
+.recording-Contentleft{
+  padding: 10px;
+  background-color: #FFF;
+  text-align: left;
+}
+
+.addrequest-PhotoImgs{
+  min-height: 150px;
+  background-color: #999;
+  border-radius: 5px;
+  max-height: 200px;
+}
+
+.addrequest-PhotoImgsHeader img{
+  float: right;
+  height: 32px;
+  width: 32px;
+  margin-right: 7px;
+}

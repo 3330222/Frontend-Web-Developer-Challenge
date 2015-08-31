@@ -1,0 +1,45 @@
+<div class = "search-Container">
+ 
+	<!-- Header -->
+	<div class="nav-header search-Header navbar-fixed-top">
+
+		<table width = "100%" height = "100%">
+		    <tr width = "100%" height = "100%">
+		        <td width = "15%" align = "left">
+		        	<a href = "#/main" class = "recording-BackBtn">
+				    	<img src="images/arrow-left.png">
+				    </a>
+		        </td>
+		        <td width = "70%" align = "center">
+		        	Search on the Internet
+		        </td>
+		        <td width = "15%">
+                    
+                    <a href = "#/recording" id = "search-AddIcon"><img src="images/icon-add.png"></a>
+                    
+		        </td>
+		    </tr>
+		</table>
+
+	</div>
+
+	<!-- Content -->
+
+<div class="search-Content">
+            
+<form class="am-form">
+  <fieldset>
+      <div class="am-form-group">
+      <label for="doc-ipt-email-1">Food name</label>
+           <autocomplete ng-model="foodname" data="result" on-type="updateResult" attr-placeholder="food name"></autocomplete>
+      </div><br>
+      
+     <button type="button" class="am-btn am-btn-primary am-round " ng-click="go()">Search</button>
+      
+  </fieldset>    
+</form>                     
+
+</div>
+	
+</div>
+

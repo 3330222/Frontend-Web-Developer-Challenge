@@ -1,0 +1,30 @@
+<div class = "login-Container">
+ <br><br><br>
+ <form name="myForm" novalidate class="am-form">
+	<table width = "100%" height = "100%">
+        <tr width = "100%" height = "15%"></tr>
+		<tr width = "100%" height = "30%">
+			<td>
+				<img src="images/LoginPageImg.png" width="270">
+			</td>
+		</tr>
+		<tr width = "100%" height = "40%">
+			<td>
+				<div class = "login-UserInput">
+                    
+					<p><input ng-model="userId" class="form-control" type = "text" id = "userId" placeholder = "USER ID" required name="userId"/></p> 
+					<p><input ng-model="password" class="form-control" type = "password" id = "password" placeholder = "PASSWORD" required name="password"/></p> 
+					<label class="checkbox-inline login-RememberMe">
+                        <input type="checkbox" class = "btn-large">Remember Me
+					</label>
+				</div>
+				
+                <button ng-click = "login()" ng-disabled="myForm.$invalid" class = "btn btn-warning login-btn"><p class="am-serif">LOGIN</p></button>
+			</td>
+		</tr>
+        <tr width = "100%" height = "15%">         
+    
+        </tr>
+	</table>  
+    </form>    
+</div>

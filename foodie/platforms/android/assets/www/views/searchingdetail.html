@@ -1,0 +1,187 @@
+<div class = "search-Container">
+
+	<!-- Header -->
+	<div class="nav-header search-Header navbar-fixed-top">
+
+		<table width = "100%" height = "100%">
+		    <tr width = "100%" height = "100%">
+		        <td width = "15%" align = "left">
+		        	<a href = "#/browsing" class = "recording-BackBtn">
+				    	<img src="images/arrow-left.png">
+				    </a>
+		        </td>
+		        <td width = "70%" align = "center">
+		        	Portion
+		        </td>
+		        <td width = "15%">
+                    
+                    
+		        </td>
+		    </tr>
+		</table>
+
+	</div>
+
+<!-- Content -->
+    
+    
+    <div class = "search-Content" >
+
+
+    <accordion close-others="true">
+
+    <accordion-group heading="{{item.name}}" ng-repeat="item in todos">
+  <table class="table table-striped">
+       <tr><td><h4>Important</h4><td></tr> 
+     <tr>
+            <td>sodium:</td>
+            <td>{{item.nutrients.important.sodium.value}}({{item.nutrients.important.sodium.unit}})</td>
+            
+        </tr>
+     <tr>
+            <td>protein:</td>
+            <td>{{item.nutrients.important.protein.value}}({{item.nutrients.important.protein.unit}})</td>
+            
+        </tr>
+     <tr>
+            <td>polyunsaturated:</td>
+            <td>{{item.nutrients.important.polyunsaturated.value}}({{item.nutrients.important.polyunsaturated.unit}})</td>
+            
+        </tr>
+     <tr>
+            <td>sugar:</td>
+            <td>{{item.nutrients.important.sugar.value}}({{item.nutrients.important.sugar.unit}})</td>
+            
+        </tr>  
+     <tr>
+            <td>saturated:</td>
+            <td>{{item.nutrients.important.saturated.value}}({{item.nutrients.important.saturated.unit}})</td>
+            
+        </tr>
+     <tr>
+            <td>trans:</td>
+            <td>{{item.nutrients.important.trans.value}}({{item.nutrients.important.trans.unit}})</td>
+            
+        </tr>
+     <tr>
+            <td> potassium:</td>
+            <td>{{item.nutrients.important.potassium.value}}({{item.nutrients.important.potassium.unit}})</td>
+            
+        </tr>
+     <tr>
+            <td> total fats:</td>
+            <td>{{item.nutrients.important.total_fats.value}}({{item.nutrients.important.total_fats.unit}})</td>
+            
+        </tr>
+     <tr>
+            <td> cholesterol:</td>
+            <td>{{item.nutrients.important.cholesterol.value}}({{item.nutrients.important.cholesterol.unit}})</td>
+            
+        </tr>
+     <tr>
+            <td> total carbs:</td>
+            <td>{{item.nutrients.important.total_carbs.value}}({{item.nutrients.important.total_carbs.unit}})</td>
+            
+        </tr>
+     <tr>
+            <td> calories:</td>
+            <td>{{item.nutrients.important.calories.value}}({{item.nutrients.important.calories.unit}})</td>
+            
+        </tr>
+     <tr>
+            <td> dietary fibre:</td>
+            <td>{{item.nutrients.important.dietary_fibre.value}}({{item.nutrients.important.dietary_fibre.unit}})</td>
+            
+        </tr>
+     <tr>
+            <td> monounsaturated:</td>
+            <td>{{item.nutrients.important.monounsaturated.value}}({{item.nutrients.important.monounsaturated.unit}})</td>
+            
+        </tr>   
+      <tr><td><h4>Extra</h4><td></tr>     
+    <tr>
+            <td>vitamin a:</td>
+            <td>{{item.nutrients.extra.vitamin_a.value}}({{item.nutrients.extra.vitamin_a.unit}})</td>
+            
+        </tr>
+    <tr>
+            <td>phosphorus:</td>
+            <td>{{item.nutrients.extra.phosphorus.value}}({{item.nutrients.extra.phosphorus.unit}})</td>
+            
+        </tr>
+    <tr>
+            <td>retinol:</td>
+            <td>{{item.nutrients.extra.retinol.value}}({{item.nutrients.extra.retinol.unit}})</td>
+            
+        </tr>
+    <tr>
+            <td>iron:</td>
+            <td>{{item.nutrients.extra.iron.value}}({{item.nutrients.extra.iron.unit}})</td>
+            
+        </tr>  
+    <tr>
+            <td>thiamin:</td>
+            <td>{{item.nutrients.extra.thiamin.value}}({{item.nutrients.extra.thiamin.unit}})</td>
+            
+        </tr>
+    <tr>
+            <td>selenium:</td>
+            <td>{{item.nutrients.extra.selenium.value}}({{item.nutrients.extra.selenium.unit}})</td>
+            
+        </tr>
+    <tr>
+            <td> selenium:</td>
+            <td>{{item.nutrients.extra.selenium.value}}({{item.nutrients.extra.selenium.unit}})</td>
+            
+        </tr>
+    <tr>
+            <td> starch:</td>
+            <td>{{item.nutrients.extra.starch.value}}({{item.nutrients.extra.starch.unit}})</td>
+            
+        </tr>
+    <tr>
+            <td> zinc:</td>
+            <td>{{item.nutrients.extra.zinc.value}}({{item.nutrients.extra.zinc.unit}})</td>
+            
+        </tr>
+    <tr>
+            <td> water:</td>
+            <td>{{item.nutrients.extra.water.value}}({{item.nutrients.extra.water.unit}})</td>
+            
+        </tr>
+    <tr>
+            <td> riboflavin:</td>
+            <td>{{item.nutrients.extra.riboflavin.value}}({{item.nutrients.extra.riboflavin.unit}})</td>
+            
+        </tr>
+    <tr>
+            <td> calcium:</td>
+            <td>{{item.nutrients.extra.calcium.value}}({{item.nutrients.extra.calcium.unit}})</td>
+            
+        </tr>
+    <tr>
+            <td> vitamin c:</td>
+            <td>{{item.nutrients.extra.vitamin_c.value}}({{item.nutrients.extra.vitamin_c.unit}})</td>
+            
+        </tr>
+    <tr>
+            <td>  b-carotene:</td>
+            <td>{{item.nutrients.extra.b-carotene.value}}({{item.nutrients.extra.b-carotene.unit}})</td>
+            
+        </tr>     
+  </table>
+
+              
+    </accordion-group>
+
+  </accordion> 
+    
+
+
+         
+        
+</div>
+</div>
+    
+
+    
