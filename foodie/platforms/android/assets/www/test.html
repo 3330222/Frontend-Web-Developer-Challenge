@@ -49,10 +49,12 @@
     </p>
   </div>
 </div>-->
-        <accordion close-others="true">
-
-    <accordion-group heading="{{group.title}}" ng-repeat="group in groups">
-      {{group.content}}
-    </accordion-group>
-
-  </accordion> 
+<canvas id="radar" class="chart chart-radar"
+  chart-data="data" chart-labels="labels">
+</canvas >
+<br>
+<br>
+sss
+<canvas id="bar" class="chart chart-bar"
+  chart-data="data2" chart-labels="labels2">
+</canvas >

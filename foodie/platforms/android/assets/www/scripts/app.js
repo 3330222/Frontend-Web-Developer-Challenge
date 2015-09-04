@@ -17,7 +17,8 @@ angular
     'ngTouch',
     'ngCordova',
     'autocomplete',
-    'ui.bootstrap'
+    'ui.bootstrap',
+    'chart.js'
   ])
   .config(function ($routeProvider) {
     $routeProvider
@@ -54,11 +55,24 @@ angular
         templateUrl: 'views/myrecords.html',
         controller: 'MyRecordsCtrl'
       })
-//     .when('/test', {
-//        templateUrl: 'test.html',
-//        controller: 'TestCtrl'
-//      })
+     .when('/test', {
+        templateUrl: 'test.html',
+        controller: 'TestCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
-  });
+  })
+  .config(['ChartJsProvider', function (ChartJsProvider) {
+    // Configure all charts
+    ChartJsProvider.setOptions({
+      colours: ['#FF5252', '#FF8A80'],
+      responsive: false
+    });
+    // Configure all line charts
+    ChartJsProvider.setOptions('Line', {
+      datasetFill: false
+    });
+  }])
+
+;

@@ -8,7 +8,7 @@
  * Controller of the foodieApp
  */
 angular.module('foodieApp')
-  	.controller('MyRecordsCtrl',  function ($rootScope, $scope, MainService, $location,$http,$cordovaSQLite) {
+  	.controller('MyRecordsCtrl',  function ($rootScope, $scope, $location,$http,$cordovaSQLite) {
 
 
 $scope.result=[];

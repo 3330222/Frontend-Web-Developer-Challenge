@@ -27,10 +27,26 @@
     
     <div class = "search-Content" >
 
+     
+<ul class="list-group">
+  <li class="list-group-item" ng-repeat="item in todos" ng-click="go(item)">{{item.name}}</li>
+
+</ul> 
+        
+        
+        
+        
+        
+        
+
+<!--
 
     <accordion close-others="true">
 
     <accordion-group heading="{{item.name}}" ng-repeat="item in todos">
+        
+
+        
   <table class="table table-striped">
        <tr><td><h4>Important</h4><td></tr> 
      <tr>
@@ -175,7 +191,9 @@
     </accordion-group>
 
   </accordion> 
+
     
+-->
 
 
          
